@@ -1,0 +1,9 @@
+﻿create table if not exists operations
+(
+	id int auto_increment not null,
+	firstnumber int,
+	secondnumber int,
+	operation varchar(1),
+	result int,
+	primary key(id)
+)
